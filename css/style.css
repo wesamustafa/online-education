@@ -225,6 +225,32 @@ header #menu{
         background-position-x: 100rem;
     }
 }
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about .image{
+    flex: 1 1 40rem;
+
+}
+.about .image img{
+    height: 65vh;
+    width: 100%;
+}
+.about .content{
+    flex: 1 1 40rem;
+}
+.about .content h3{
+    font-size: 3.5rem;
+    color: #666;
+}
+.about .content p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
 
 /* media queries */
 @media (max-width:768px){
