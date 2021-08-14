@@ -321,6 +321,19 @@ header #menu{
     color: #fff;
     font-size: 3rem;
 }
+.teacher{
+    text-align: center;
+    background: url(../images/teachers.jfif) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.teacher p{
+    font-size: 1.8rem;
+    color: #666;
+    width: 65rem;
+    margin: 1rem auto;
+}
 
 /* media queries */
 @media (max-width:768px){
@@ -363,6 +376,9 @@ header #menu{
         font-size: 4rem;
     }
     .home p{
+        width: auto;
+    }
+    .teacher p{
         width: auto;
     }
 }
