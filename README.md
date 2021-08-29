@@ -6,4 +6,5 @@
 ###### ✔ responsive course section using flexbox.
 ###### ✔ responsive teacher section using flexbox.
 ###### ✔ responsive contact section using flexbox.
+###### ✔ responsive footer section section using flexbox.
 =======
