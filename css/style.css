@@ -334,6 +334,57 @@ header #menu{
     width: 65rem;
     margin: 1rem auto;
 }
+.contact{
+    background: #111;
+
+}
+.contact .heading{
+    color: #fff;
+}
+.contact .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row form{
+    flex:1 1 50rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    align-items: flex-start;
+}
+.contact .row form .box{
+    height: 5rem;
+    width: 49%;
+    border: .1rem solid #eee;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: #fff;
+    background: none;
+    text-transform: none;
+}
+.contact .row form .box:focus{
+    border-color:#579ac9 ;
+}
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+
+}
+.contact .row form .address{
+    height: 15rem;
+    padding: 1rem;
+     resize: none;
+     width: 100%;
+}
+.contact .row form .btn:hover{
+    background: #fff;
+    color: #333;
+}
+
 
 /* media queries */
 @media (max-width:768px){
@@ -381,9 +432,11 @@ header #menu{
     .teacher p{
         width: auto;
     }
+    .course .box-container .box{width: auto;}
 }
 @media (max-width:500px){
     html{
         font-size: 50%;
     }
+    
 }
