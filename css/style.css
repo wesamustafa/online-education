@@ -438,5 +438,7 @@ header #menu{
     html{
         font-size: 50%;
     }
-    
+    .contact .row form .box{
+        width: 100%;
+    }
 }
