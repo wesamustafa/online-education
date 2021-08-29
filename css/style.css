@@ -350,6 +350,7 @@ header #menu{
 .contact .row form{
     flex:1 1 50rem;
     padding: 2rem;
+    background: #333;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
